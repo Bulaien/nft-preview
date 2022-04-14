@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+body {
+    min-height: 100vh;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+
+
+.card  {
+   max-width: 350px;
+   background-color: hsl(216, 50%, 16%);
+   padding: 20px;
+   border-radius: 10px;
+   
+
+}
+
+.card .pic {
+    width: 100%;
+    border-radius: 10px;
+}
+ .text {
+    
+}
+h2 {
+    color:white;
+    margin:14px 0;
+    font-size: 18px;
+    color: hsl(215, 32%, 27%);
+   
+}
+h3:hover {
+      color:hsl(178, 100%, 50%);
+}
+h3{
+    margin-top: 10px;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);     
+}
+.data{
+    color:hsl(215, 32%, 27%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+
+}
+.logo {
+    color: hsl(178, 100%, 50%);
+    margin-bottom: 20px;
+}
+.clock {
+    color: hsl(215, 32%, 27%);
+    margin-bottom: 20px;
+}
+.author p {
+    color:hsl(215, 32%, 27%);
+    
+    
+    
+}
+.author img {
+    height:40px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+}
+p {
+    padding-left: 20px;
+}
+.author{
+    display: flex;
+    align-items: center;
+    
+}
+ .jules:hover span {
+    color:hsl(178, 100%, 50%);
+}
+
